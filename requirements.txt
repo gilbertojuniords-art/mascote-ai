@@ -1,0 +1,12 @@
+# Python 3.12 no Windows. Instale com: py -3.12 -m pip install -r requirements.txt
+edge-tts              # voz (Edge, grátis, precisa de internet)
+faster-whisper        # ouvido (Whisper local)
+sounddevice           # microfone
+numpy
+av<16                 # a versão 19 quebra o faster-whisper
+PySide6-Essentials    # mascote, tela de descanso e central
+cryptography          # confere a digital do app do celular
+
+# Só com placa de vídeo NVIDIA (o Whisper grande roda nela; sem placa, cai para o modelo small):
+# nvidia-cublas-cu12
+# nvidia-cudnn-cu12

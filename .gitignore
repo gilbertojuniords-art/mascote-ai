@@ -1,0 +1,21 @@
+# Dados de cada pessoa e de cada PC: nunca vão para o GitHub
+sexta.config.json
+*.key
+*.log
+.sexta-voz/
+
+# Python
+__pycache__/
+*.pyc
+
+# Obsidian, Claudian e configurações locais do Claude
+.obsidian/
+.claudian/
+.claude/settings.local.json
+
+# App do celular: o que o Gradle gera em cada PC
+celular/.gradle/
+celular/build/
+celular/app/build/
+celular/local.properties
+*.apk

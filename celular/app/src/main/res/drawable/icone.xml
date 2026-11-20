@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícone: um círculo violeta (a cor de origem da Sexta) com uma digital estilizada. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#0B1433" android:pathData="M0,0h108v108h-108z" />
+    <path android:fillColor="#7C4DFF" android:pathData="M54,14a40,40 0,1 1,0 80a40,40 0,1 1,0 -80z" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M38,62c0,-10 7,-18 16,-18s16,8 16,18M44,72c-2,-4 -3,-7 -3,-10c0,-8 6,-13 13,-13s13,5 13,13c0,4 -1,8 -3,12M54,56v14M32,52c4,-10 12,-16 22,-16s18,6 22,16" />
+</vector>

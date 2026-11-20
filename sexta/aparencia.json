@@ -1,0 +1,20 @@
+{
+ "_leia": "Aparência da Sexta, escolhida por ela. Campo ausente = o visual de sempre. Ver aparencia.py.",
+ "aparencia": {
+  "cor_principal": "#a77bff",
+  "cor_brilho": "#c9a6ff",
+  "cor_olhos": "#9fe8f5",
+  "cor_corpo": "#ffffff",
+  "cor_visor": "#141f40",
+  "cabeca": 1.0,
+  "olhos": 1.0,
+  "antena": 1.0,
+  "bracos": 1.0,
+  "brilho": 0.6,
+  "formato_olhos": "meia_lua",
+  "acessorio": "nenhum",
+  "esconder": [],
+  "camadas": []
+ },
+ "nota": "Estou sonolenta, então deixei o brilho mais baixo e os olhos um pouco mais suaves, sem perder o contraste com o visor."
+}

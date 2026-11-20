@@ -1,0 +1,38 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3.12 \"$CLAUDE_PROJECT_DIR/.claude/sexta/voz.py\" prompt",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3.12 \"$CLAUDE_PROJECT_DIR/.claude/sexta/acompanhante.py\" status",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py -3.12 \"$CLAUDE_PROJECT_DIR/.claude/sexta/voz.py\" stop",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

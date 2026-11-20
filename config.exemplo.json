@@ -1,0 +1,82 @@
+{
+  "_leia": "Copie para <cofre>/.claude/sexta/sexta.config.json (o instalar.py faz isso) e troque pelos seus dados. Esse arquivo nunca vai para o Git. Apague as linhas que não quiser mudar: valem os padrões do sexta_config.py.",
+  "nome": "chefe",
+  "_nome": "Como a Sexta chama você (na voz, nos avisos e nas instruções para a IA).",
+  "nome_cofre": "Meu Cofre",
+  "_nome_cofre": "Nome do cofre na linha de comando do Obsidian. Padrão: o nome da pasta do cofre.",
+  "raiz_notas": "",
+  "pasta_sexta": "Sexta",
+  "pasta_diario": "Diário",
+  "_pastas": "Relativas ao cofre. raiz_notas = onde a central procura notas; pasta_sexta = onde ficam as notas da Sexta (Avisos, Visor...); pasta_diario = nome da pasta do diário, que a curiosidade dela nunca lê.",
+  "vocabulario": "",
+  "_vocabulario": "Palavras que o Whisper costuma errar: seu nome, sua cidade, seus projetos. Ex.: \"Fulano, Campinas, Painel.\"",
+  "voz_edge": "pt-BR-ThalitaMultilingualNeural",
+  "pasta_caderno": "Sexta/Caderno da Sexta",
+  "_pasta_caderno": "Onde ela escreve sozinha (pensamentos, personalidade, fatos que aprendeu). Relativa ao cofre.",
+  "pensamentos_por_dia": 8,
+  "impulsos_por_dia": 6,
+  "_impulsos_por_dia": "Quantas vezes por dia, no máximo, ela puxa assunto sozinha (o teto duro das leis é 10).",
+  "repo_sexta": "C:\\Projetos\\SextaAI",
+  "_repo_sexta": "Onde está o clone do repositório. À noite ela publica ali os movimentos que aprendeu (só esse arquivo).",
+  "_pensamentos_por_dia": "Quantas vezes por dia ela pensa sozinha. Cada pensamento usa a cota do Claude (Haiku).",
+  "cerebro_local": "qwen3:4b-instruct-2507-q4_K_M",
+  "_cerebro_local": "Modelo do Ollama para quando a internet cair. Precisa do Ollama instalado (grátis) e de ollama pull <modelo>.",
+  "ouvido_guardar": false,
+  "ouvido_dias": 2,
+  "_ouvido": "Ouvido (desligado por padrão): true guarda cada fala (áudio e texto) só no PC, em ~/.sexta-voz/ouvido, e apaga depois de ouvido_dias. Ela mede volume, altura e velocidade da sua voz para perceber como você falou. As medidas (só números) ficam.",
+  "rapida_le_cofre": true,
+  "rapida_mapa": "",
+  "_rapida_le_cofre": "Com true, quando você fala com ela (voz ou Telegram), ela pode LER o cofre inteiro (Read, Grep e Glob, só dentro da pasta do cofre; nada fora dele, nada de escrever). Responde com mais contexto, mas leva alguns segundos a mais quando precisa procurar. rapida_mapa (opcional): nota que ela lê quando não sabe onde algo fica, relativa ao cofre.",
+  "notas": {
+    "avisos": "Avisos.md",
+    "visor": "Visor.md",
+    "repertorio": "Repertório.md",
+    "perfil": "Sexta rápida - perfil.md",
+    "onde_paramos": "Onde paramos.md",
+    "bem": "Filosofia/O bem do usuário.md",
+    "entrada": "Entrada"
+  },
+  "apps": [
+    [
+      "Obsidian",
+      "obsidian",
+      "obsidian:"
+    ],
+    [
+      "Explorador",
+      "pasta",
+      "explorer.exe"
+    ],
+    [
+      "Spotify",
+      "spotify",
+      "spotify:"
+    ],
+    [
+      "Navegador",
+      "opera",
+      "https://www.google.com"
+    ]
+  ],
+  "_apps": "Até 6 apps na central de comando: [nome, ícone, o que abrir]. Ícones: opera, obsidian, pasta, spotify, painel, claude. Aceita atalho .lnk, programa, endereço http e variáveis como %APPDATA%.",
+  "visao": false,
+  "visao_pcs": [
+    "NOME-DO-PC"
+  ],
+  "visao_bloqueio": [
+    "nome do seu app de banco ou finanças"
+  ],
+  "hora_dela_min": 60,
+  "ponte_claude": false,
+  "_ponte": "Ponte Telegram -> Claude (ponte.py). Com true, o que a Sexta do Telegram não consegue vai para o Claude no PC, sem pedir permissão a cada passo; um porteiro barra o que esbarrar na lista de segurança máxima. Acrescente as suas regras: ponte_ler e ponte_escrever (caminhos), ponte_comandos ([categoria, regex]). ponte_modelo (opcional) troca o modelo do Claude.",
+  "ponte_ler": [],
+  "ponte_escrever": [
+    "C:/caminho/do/seu/projeto/de/dinheiro"
+  ],
+  "ponte_comandos": [
+    [
+      "dinheiro",
+      "nome-do-seu-bot"
+    ]
+  ]
+}

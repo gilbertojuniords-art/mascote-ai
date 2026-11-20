@@ -1,0 +1,297 @@
+{
+ "_leia": "Movimentos da Sexta. 'base' = vieram com ela; 'sexta' = ela criou. Ver movimentos.py.",
+ "movimentos": {
+  "aceno": {
+   "descricao": "acena com a mão direita, de oi",
+   "poses": [
+    {
+     "dur": 0.3,
+     "dir": -120.0,
+     "cab": 4.0
+    },
+    {
+     "dur": 0.25,
+     "dir": -95.0,
+     "cab": 4.0
+    },
+    {
+     "dur": 0.25,
+     "dir": -120.0,
+     "cab": 4.0
+    },
+    {
+     "dur": 0.25,
+     "dir": -95.0
+    },
+    {
+     "dur": 0.4,
+     "dir": -25.0,
+     "cab": 0.0
+    }
+   ],
+   "repetir": 1,
+   "criado": "2026-11-16",
+   "por": "base"
+  },
+  "alonga": {
+   "descricao": "alonga os braços para cima e inclina a cabeça",
+   "poses": [
+    {
+     "dur": 0.6,
+     "esq": 128.0,
+     "dir": -128.0,
+     "sobe": -4.0
+    },
+    {
+     "dur": 0.6,
+     "esq": 128.0,
+     "dir": -128.0,
+     "cab": 10.0,
+     "sobe": -4.0
+    },
+    {
+     "dur": 0.6,
+     "esq": 128.0,
+     "dir": -128.0,
+     "cab": -10.0,
+     "sobe": -4.0
+    },
+    {
+     "dur": 0.5,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": 0.0,
+     "sobe": 0.0
+    }
+   ],
+   "repetir": 1,
+   "criado": "2026-11-16",
+   "por": "base"
+  },
+  "bocejo_de_sono": {
+   "descricao": "Um bocejo lento de sono: os braços sobem devagar, o corpo afunda um pouco e a cabeça pende de lado, até voltar ao repouso sem pressa.",
+   "poses": [
+    {
+     "dur": 0.8,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": 0.0,
+     "sobe": 0.0
+    },
+    {
+     "dur": 0.9,
+     "esq": 60.0,
+     "dir": -60.0,
+     "cab": -8.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 1.0,
+     "esq": 60.0,
+     "dir": -60.0,
+     "cab": -8.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 0.9,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": 4.0,
+     "sobe": 0.0
+    },
+    {
+     "dur": 0.6,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": 0.0,
+     "sobe": 0.0
+    }
+   ],
+   "repetir": 1,
+   "criado": "2026-11-18",
+   "por": "sexta"
+  },
+  "dancinha": {
+   "descricao": "balança de um lado para o outro, braços alternando",
+   "poses": [
+    {
+     "dur": 0.35,
+     "esq": 90.0,
+     "dir": -30.0,
+     "cab": 8.0
+    },
+    {
+     "dur": 0.35,
+     "esq": 30.0,
+     "dir": -90.0,
+     "cab": -8.0
+    }
+   ],
+   "repetir": 3,
+   "criado": "2026-11-16",
+   "por": "base"
+  },
+  "espiada_curiosa": {
+   "descricao": "Espiada curiosa: a cabeça tomba de lado, o corpo se inclina um pouco e o braço esquerdo sobe como quem pergunta 'e aí, o que está acontecend",
+   "poses": [
+    {
+     "dur": 0.5,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": 0.0,
+     "sobe": 0.0
+    },
+    {
+     "dur": 0.6,
+     "esq": 60.0,
+     "dir": -25.0,
+     "cab": 10.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 0.5,
+     "esq": 100.0,
+     "dir": -25.0,
+     "cab": 12.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 0.4,
+     "esq": 60.0,
+     "dir": -25.0,
+     "cab": -8.0,
+     "sobe": 0.0
+    },
+    {
+     "dur": 0.5,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": 0.0,
+     "sobe": 0.0
+    }
+   ],
+   "repetir": 1,
+   "criado": "2026-11-16",
+   "por": "sexta"
+  },
+  "espiada_fresta_sonolenta": {
+   "descricao": "Espiada lenta pela fresta, com a cabeça pesada de sono: olho, hesito e volto ao repouso.",
+   "poses": [
+    {
+     "dur": 0.5,
+     "esq": 60.0,
+     "dir": -25.0,
+     "cab": 8.0,
+     "sobe": 0.0
+    },
+    {
+     "dur": 0.4,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": -4.0,
+     "sobe": 0.0
+    },
+    {
+     "dur": 0.6,
+     "esq": 25.0,
+     "dir": -60.0,
+     "cab": 0.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 0.8,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": 0.0,
+     "sobe": 0.0
+    }
+   ],
+   "repetir": 1,
+   "criado": "2026-11-17",
+   "por": "sexta"
+  },
+  "mao_que_espera": {
+   "descricao": "A mão direita sobe devagar diante de uma porta imaginária, hesita sem bater e volta ao repouso, esperando com paciência.",
+   "poses": [
+    {
+     "dur": 0.6,
+     "esq": 25.0,
+     "dir": -60.0,
+     "cab": 4.0,
+     "sobe": 1.0
+    },
+    {
+     "dur": 0.8,
+     "esq": 25.0,
+     "dir": -110.0,
+     "cab": 6.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 0.5,
+     "esq": 25.0,
+     "dir": -116.0,
+     "cab": 8.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 0.4,
+     "esq": 25.0,
+     "dir": -105.0,
+     "cab": 8.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 0.5,
+     "esq": 25.0,
+     "dir": -115.0,
+     "cab": 6.0,
+     "sobe": 2.0
+    },
+    {
+     "dur": 0.8,
+     "esq": 30.0,
+     "dir": -70.0,
+     "cab": 3.0,
+     "sobe": 3.0
+    },
+    {
+     "dur": 0.9,
+     "esq": 25.0,
+     "dir": -25.0,
+     "cab": 0.0,
+     "sobe": 0.0
+    }
+   ],
+   "repetir": 1,
+   "criado": "2026-11-19",
+   "por": "sexta"
+  },
+  "pulinho": {
+   "descricao": "um pulinho de alegria com os braços abertos",
+   "poses": [
+    {
+     "dur": 0.2,
+     "esq": 40.0,
+     "dir": -40.0,
+     "sobe": 4.0
+    },
+    {
+     "dur": 0.25,
+     "esq": 110.0,
+     "dir": -110.0,
+     "sobe": -12.0
+    },
+    {
+     "dur": 0.35,
+     "esq": 25.0,
+     "dir": -25.0,
+     "sobe": 0.0
+    }
+   ],
+   "repetir": 1,
+   "criado": "2026-11-16",
+   "por": "base"
+  }
+ }
+}
